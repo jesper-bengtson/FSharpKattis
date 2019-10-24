@@ -1,0 +1,83 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "1-hello-world", "1-hello-world\1-hello-world.fsproj", "{84CF7E86-A561-41B1-8BF1-8DF93FBE0FC4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "2-hello-world", "2-hello-world\2-hello-world.fsproj", "{78DDF4AA-E14F-4E64-B5EC-215AA09BFE89}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "3-stack-overflow", "3-stack-overflow\3-stack-overflow.fsproj", "{BED0E619-3321-4DE1-A861-54559BCC59A8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "4-heap-overflow", "4-heap-overflow\4-heap-overflow.fsproj", "{EE38B2B0-B655-4FDC-A0E5-3D118CE03FFE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "5-compiler-error", "5-compiler-error\5-compiler-error.fsproj", "{2764A757-FEAC-4B7C-819E-C97EB353FA8C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "6-etc-passwd", "6-etc-passwd\6-etc-passwd.fsproj", "{AAF20312-B89D-4D37-ACFF-6D59C9C4AA53}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "7-runtime-error", "7-runtime-error\7-runtime-error.fsproj", "{9A86F255-0113-4F50-A8DE-5D54A887ED8E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "8-different-correct", "8-different-correct\8-different-correct.fsproj", "{25430A54-4E5A-4339-B643-DA861043432C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "9-different-incorrect", "9-different-incorrect\9-different-incorrect.fsproj", "{072786F9-8A58-45F7-930C-696EEE35DB9A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "10-guess", "10-guess\10-guess.fsproj", "{3E98B42E-A9D1-443D-AB4D-F1604189BE1A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Kattio", "Kattio\Kattio.fsproj", "{2F210888-4286-45BC-9FEC-7E9D43F33313}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IOTest", "IOTest\IOTest.fsproj", "{E94A6526-42E3-42EE-8F45-EE7AD111C4E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84CF7E86-A561-41B1-8BF1-8DF93FBE0FC4}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{84CF7E86-A561-41B1-8BF1-8DF93FBE0FC4}.Debug|anycpu.Build.0 = Debug|anycpu
+		{84CF7E86-A561-41B1-8BF1-8DF93FBE0FC4}.Release|anycpu.ActiveCfg = Release|anycpu
+		{84CF7E86-A561-41B1-8BF1-8DF93FBE0FC4}.Release|anycpu.Build.0 = Release|anycpu
+		{78DDF4AA-E14F-4E64-B5EC-215AA09BFE89}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{78DDF4AA-E14F-4E64-B5EC-215AA09BFE89}.Debug|anycpu.Build.0 = Debug|anycpu
+		{78DDF4AA-E14F-4E64-B5EC-215AA09BFE89}.Release|anycpu.ActiveCfg = Release|anycpu
+		{78DDF4AA-E14F-4E64-B5EC-215AA09BFE89}.Release|anycpu.Build.0 = Release|anycpu
+		{BED0E619-3321-4DE1-A861-54559BCC59A8}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{BED0E619-3321-4DE1-A861-54559BCC59A8}.Debug|anycpu.Build.0 = Debug|anycpu
+		{BED0E619-3321-4DE1-A861-54559BCC59A8}.Release|anycpu.ActiveCfg = Release|anycpu
+		{BED0E619-3321-4DE1-A861-54559BCC59A8}.Release|anycpu.Build.0 = Release|anycpu
+		{EE38B2B0-B655-4FDC-A0E5-3D118CE03FFE}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{EE38B2B0-B655-4FDC-A0E5-3D118CE03FFE}.Debug|anycpu.Build.0 = Debug|anycpu
+		{EE38B2B0-B655-4FDC-A0E5-3D118CE03FFE}.Release|anycpu.ActiveCfg = Release|anycpu
+		{EE38B2B0-B655-4FDC-A0E5-3D118CE03FFE}.Release|anycpu.Build.0 = Release|anycpu
+		{2764A757-FEAC-4B7C-819E-C97EB353FA8C}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{2764A757-FEAC-4B7C-819E-C97EB353FA8C}.Debug|anycpu.Build.0 = Debug|anycpu
+		{2764A757-FEAC-4B7C-819E-C97EB353FA8C}.Release|anycpu.ActiveCfg = Release|anycpu
+		{2764A757-FEAC-4B7C-819E-C97EB353FA8C}.Release|anycpu.Build.0 = Release|anycpu
+		{AAF20312-B89D-4D37-ACFF-6D59C9C4AA53}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{AAF20312-B89D-4D37-ACFF-6D59C9C4AA53}.Debug|anycpu.Build.0 = Debug|anycpu
+		{AAF20312-B89D-4D37-ACFF-6D59C9C4AA53}.Release|anycpu.ActiveCfg = Release|anycpu
+		{AAF20312-B89D-4D37-ACFF-6D59C9C4AA53}.Release|anycpu.Build.0 = Release|anycpu
+		{9A86F255-0113-4F50-A8DE-5D54A887ED8E}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{9A86F255-0113-4F50-A8DE-5D54A887ED8E}.Debug|anycpu.Build.0 = Debug|anycpu
+		{9A86F255-0113-4F50-A8DE-5D54A887ED8E}.Release|anycpu.ActiveCfg = Release|anycpu
+		{9A86F255-0113-4F50-A8DE-5D54A887ED8E}.Release|anycpu.Build.0 = Release|anycpu
+		{25430A54-4E5A-4339-B643-DA861043432C}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{25430A54-4E5A-4339-B643-DA861043432C}.Debug|anycpu.Build.0 = Debug|anycpu
+		{25430A54-4E5A-4339-B643-DA861043432C}.Release|anycpu.ActiveCfg = Release|anycpu
+		{25430A54-4E5A-4339-B643-DA861043432C}.Release|anycpu.Build.0 = Release|anycpu
+		{072786F9-8A58-45F7-930C-696EEE35DB9A}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{072786F9-8A58-45F7-930C-696EEE35DB9A}.Debug|anycpu.Build.0 = Debug|anycpu
+		{072786F9-8A58-45F7-930C-696EEE35DB9A}.Release|anycpu.ActiveCfg = Release|anycpu
+		{072786F9-8A58-45F7-930C-696EEE35DB9A}.Release|anycpu.Build.0 = Release|anycpu
+		{3E98B42E-A9D1-443D-AB4D-F1604189BE1A}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{3E98B42E-A9D1-443D-AB4D-F1604189BE1A}.Debug|anycpu.Build.0 = Debug|anycpu
+		{3E98B42E-A9D1-443D-AB4D-F1604189BE1A}.Release|anycpu.ActiveCfg = Release|anycpu
+		{3E98B42E-A9D1-443D-AB4D-F1604189BE1A}.Release|anycpu.Build.0 = Release|anycpu
+		{2F210888-4286-45BC-9FEC-7E9D43F33313}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{2F210888-4286-45BC-9FEC-7E9D43F33313}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{2F210888-4286-45BC-9FEC-7E9D43F33313}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{2F210888-4286-45BC-9FEC-7E9D43F33313}.Release|anycpu.Build.0 = Release|Any CPU
+		{E94A6526-42E3-42EE-8F45-EE7AD111C4E2}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E94A6526-42E3-42EE-8F45-EE7AD111C4E2}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E94A6526-42E3-42EE-8F45-EE7AD111C4E2}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E94A6526-42E3-42EE-8F45-EE7AD111C4E2}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
