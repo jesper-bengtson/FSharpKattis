@@ -19,6 +19,5 @@ generate_test 6-etc-passwd
 generate_test 7-runtime-error
 generate_test 8-different-correct
 generate_test 9-different-incorrect
-
-
+generate_test 10-guess
 
