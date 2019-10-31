@@ -5,9 +5,7 @@ set -e
 mkdir -p bin
 fsharpc Program.fs --optimize+ -o bin/Program.exe
 
-ulimit -t 3
-ulimit -d 16000
-ulimit -s 1024
-ulimit -m 4096
+export MONO_GC_PARAMS='max-heap-size=2G'
 
 mono ./bin/Program.exe < in > out && diff correct out
+echo "Returned: $?"
